@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Failed in Time</title>	
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet"> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.min.js"></script>
+<script>
+$(document).ready(function(){
+	$(".menu").click(function(){
+    $(".toggle").slideToggle();
+    });
+});
+$(window).resize(function() {
+        // This will fire each time the window is resized:
+        if($(window).width() >= 631) {
+            // if larger or equal
+            $('.toggle').show();
+        } else {
+            // if smaller
+            $('.toggle').hide();
+        }
+    }).resize(); // This will simulate a resize to trigger the initial run.
+</script>
+</head>
+<body>
+
+<div class="wrapper">
+		<section class="logo">
+			<a href="index.html"><img src="logo.png"></a>
+		</section>
+				<section class="title">
+			<a href="index.html"><p>Failed in Time</p></a>
+		</section>
+	<header>
+
+				<nav>
+				<img src="menu.png" class="menu">
+				<ul class="toggle">
+					<li><a href="#">HOME</a></li>
+					<li><a href="news.html">NEWS</a></li>
+					<li><a href="media.html">MEDIA</a></li>
+					<li><a href="#">SHOWS</a></li>
+					<li><a href="https://www.facebook.com/Failed-In-Time-168731306506679/" class="fa fa-facebook" target="_blank"></a></li>
+					<li><a href="#" class="fa fa-youtube"></a></li>
+				</ul>
+			</nav>
+
+	</header>
+
+	<main>
+	<div class="foto">
+	
+	</div>
+	<h2>BAND MEMBERS</h2>
+	<section class="blok">
+		<div class="fotos">
+			<div class="center">
+				<div class="member"><p>Mathias Steels: Vocals</p> <img src="mathias.jpg"></div>
+				<div class="member"><p>Nico Herremans: Guitar + Vocals</p> <img src="nico.jpg"></div>
+			</div>
+			<div class="center">
+				<div class="member"><p>Kevin Van Belle: Guitar + Vocals</p> <img src="kevin.jpg"></div>
+				<div class="member"><p>Bjorn Lauriers: Bass</p> <img src="bjorn.jpg"></div>
+			</div>
+			<div class="center">
+				<div class="member"><p>Yannick Desmet: Drum</p> <img src="yannick.jpg"></div>
+			</div>
+		</div>
+	</section>
+
+	<h2>BIOGRAPHY</h2>
+	<section class="blok">
+		<div class="text">
+			<p>Failed in Time started up in 2004, founding members were drummer Yannick Desmet, bass and guitar player Nico Herremans and Mathias Steels on vocals and guitar. Although their inspiration were mostly metal bands, the kickoff sound for that period was rock.
+			Since they had no musical experience, the First songs were, and we stay polite, rather simpel. Within a year Kevin joined them and added the pro-touch ;-)
+			</p>
+			<p>
+			Ever since, they spent more than 10 years non stop playing together. Six other band members came and went during those years and over 40 songs were written! Unfortunately they did far to few live shows. But the current line-up, Yannick, Nico, Mathias, Kevin and Bjorn, hope to announce a new show date very soon. And they present to you some form of the best genre the world has to offer: METAL !
+			Go and explore their media and news!
+			</p>
+		</div>
+	</section>
+	</main>
+
+</div>
+<footer>
+	<p>© 2017 - Failed in Time. All Rights Reserved.</p>
+
+</footer>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-100424996-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</body>
+</html>

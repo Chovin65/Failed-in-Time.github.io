@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Failed in Time</title>	
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet"> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.min.js"></script>
+<script>
+$(document).ready(function(){
+	$(".menu").click(function(){
+    $(".toggle").slideToggle();
+    });
+});
+$(window).resize(function() {
+        // This will fire each time the window is resized:
+        if($(window).width() >= 631) {
+            // if larger or equal
+            $('.toggle').show();
+        } else {
+            // if smaller
+            $('.toggle').hide();
+        }
+    }).resize(); // This will simulate a resize to trigger the initial run.
+</script>
+</head>
+<body>
+
+<div class="wrapper">
+		<section class="logo">
+			<a href="index.html"><img src="logo.png"></a>
+		</section>
+				<section class="title">
+			<a href="index.html"><p>Failed in Time</p></a>
+		</section>
+		</section>
+	<header>
+
+				<nav>
+				<img src="menu.png" class="menu">
+				<ul class="toggle">
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="#">NEWS</a></li>
+					<li><a href="media.html">MEDIA</a></li>
+					<li><a href="#">SHOWS</a></li>
+					<li><a href="https://www.facebook.com/Failed-In-Time-168731306506679/" class="fa fa-facebook" target="_blank"></a></li>
+					<li><a href="#" class="fa fa-youtube"></a></li>
+				</ul>
+			</nav>
+
+	</header>
+
+	<main>
+	<h2 class="newsdate">03/06/2017</h2>
+	<section class="bloknews">
+		<div class="news">
+				<div class="newstitle"><p>Media tab added</p></div>
+				<div class="update"><p>We are proud to announce that we've added a Media tab to the website with our first demo recording!</p></div>
+				<div class="sign"><p>Cheers, Kevin</p></div>
+		</div>
+		</section>
+	<h2 class="newsdate">30/05/2017</h2>
+	<section class="bloknews">
+		<div class="news">
+				<div class="newstitle"><p>Making a music video</p></div>
+				<div class="update"><p>FiT is currently in the process of making a music video. Excited!!!</p></div>
+				<div class="sign"><p>Cheers, Kevin</p></div>
+		</div>
+		<div class="news">
+				<div class="newstitle"><p>Recording new demo songs</p></div>
+				<div class="update"><p>We are recording some new demo songs in hopes to score some gigs.</p></div>
+				<div class="sign"><p>Cheers, Kevin</p></div>
+		</div>
+	</section>
+		<h2 class="newsdate">29/05/2017</h2>
+	<section class="bloknews">
+		<div class="news">
+				<div class="newstitle"><p>Working on new website</p></div>
+				<div class="update"><p>FiT is very excited to introduce our very new website to our fans. As you can see it is still under construction. We are working hard to get the website finished as soon as possible.</p></div>
+				<div class="sign"><p>Cheers, Kevin</p></div>
+		</div>
+	</section>
+
+
+	</main>
+
+</div>
+<footer>
+	<p>© 2017 - Failed in Time. All Rights Reserved.</p>
+
+</footer>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-100424996-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</body>
+</html>
